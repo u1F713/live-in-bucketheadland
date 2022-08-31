@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "live-in-bucketheadland",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "turbo": "^1.4.3"
+  }
+}

@@ -9,6 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@live-in-bucketheadland/eslint-config": "workspace:*",
     "turbo": "^1.4.3"
   }
 }

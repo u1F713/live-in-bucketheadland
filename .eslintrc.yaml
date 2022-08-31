@@ -1,0 +1,4 @@
+root: true
+extends: ["@live-in-bucketheadland/eslint-config"]
+parserOptions:
+  project: ["tsconfig.json"]

@@ -1,0 +1,17 @@
+{
+  "name": "@live-in-bucketheadland/database",
+  "version": "0.0.0",
+  "main": "dist/main.ts",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "prisma": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  }
+}

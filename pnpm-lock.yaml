@@ -25,6 +25,17 @@ importers:
       ts-node: 10.9.1_tphhiizkxv2hzwkunblc3hbmra
       typescript: 4.8.2
 
+  packages/database:
+    specifiers:
+      '@types/node': ^18.7.14
+      prisma: ^4.3.1
+      typescript: ^4.8.2
+    dependencies:
+      prisma: 4.3.1
+    devDependencies:
+      '@types/node': 18.7.14
+      typescript: 4.8.2
+
   packages/eslint-config:
     specifiers:
       '@types/eslint': ^8.4.6
@@ -186,6 +197,11 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: false
+
+  /@prisma/engines/4.3.1:
+    resolution: {integrity: sha512-4JF/uMaEDAPdcdZNOrnzE3BvrbGpjgV0FcPT3EVoi6I86fWkloqqxBt+KcK/+fIRR0Pxj66uGR9wVH8U1Y13JA==}
+    requiresBuild: true
     dev: false
 
   /@rushstack/eslint-patch/1.1.4:
@@ -1965,6 +1981,15 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
+
+  /prisma/4.3.1:
+    resolution: {integrity: sha512-90xo06wtqil76Xsi3mNpc4Js3SdDRR5g4qb9h+4VWY4Y8iImJY6xc3PX+C9xxTSt1lr0Q89A0MLkJjd8ax6KiQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 4.3.1
+    dev: false
 
   /process-warning/2.0.0:
     resolution: {integrity: sha512-+MmoAXoUX+VTHAlwns0h+kFUWFs/3FZy+ZuchkgjyOu3oioLAo2LB5aCfKPh2+P9O18i3m43tUEv3YqttSy0Ww==}

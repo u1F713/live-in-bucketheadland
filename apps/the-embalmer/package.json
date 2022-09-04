@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
+    "test": "jest",
+    "test:e2e": "jest --testRegex '.*\\.e2e-spec\\.ts$'",
     "dev": "nodemon"
   },
   "dependencies": {

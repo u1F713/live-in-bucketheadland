@@ -1,4 +1,7 @@
 root: true
 extends: ["@live-in-bucketheadland/eslint-config"]
 parserOptions:
-  project: ["tsconfig.json"]
+  project: ["@live-in-bucketheadland/tsconfig"]
+settings:
+  next:
+    rootDir: ["apps/*/"]

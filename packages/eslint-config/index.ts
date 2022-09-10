@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   env: {
     es2022: true,
     browser: true
@@ -15,8 +16,9 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   settings: {
-    react: { version: '18' },
-    next: { rootDir: ['apps/*/'] }
+    react: { version: '18' }
   },
   ignorePatterns: ['dist', 'build', 'node_modules']
 }
+
+export = config

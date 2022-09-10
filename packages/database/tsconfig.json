@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "@live-in-bucketheadland/tsconfig/base.json",
   "compilerOptions": {
     "outDir": "./dist"
   },

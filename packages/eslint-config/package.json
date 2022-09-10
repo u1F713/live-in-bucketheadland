@@ -1,9 +1,12 @@
 {
   "name": "@live-in-bucketheadland/eslint-config",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
-    "index.js"
+    "dist/index.js"
   ],
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/eslint": "^8.4.6",
     "prettier": "^2.7.1",

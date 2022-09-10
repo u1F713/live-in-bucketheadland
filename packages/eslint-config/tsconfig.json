@@ -2,16 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "CommonJS",
-    "sourceMap": true,
-    "declaration": true,
-    "incremental": true,
     "skipLibCheck": true,
-    "isolatedModules": true,
     "removeComments": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "lib": ["ESNext", "ESNext.WeakRef"]
+    "lib": ["ESNext"],
+    "outDir": "dist"
   },
   "exclude": ["node_modules"]
 }

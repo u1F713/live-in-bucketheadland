@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@live-in-bucketheadland/tsconfig",
+  "files": [
+    "base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

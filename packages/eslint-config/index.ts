@@ -16,7 +16,7 @@ const config: Linter.Config = {
   ],
   parser: '@typescript-eslint/parser',
   settings: {
-    react: { version: '18' }
+    react: { version: 'detect' }
   },
   ignorePatterns: ['dist', 'build', 'node_modules']
 }

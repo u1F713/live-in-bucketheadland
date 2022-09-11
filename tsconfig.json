@@ -1,0 +1,7 @@
+{
+  "extends": "@live-in-bucketheadland/tsconfig/base",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

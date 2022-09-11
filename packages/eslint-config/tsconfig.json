@@ -1,13 +1,8 @@
 {
+  "extends": "@live-in-bucketheadland/tsconfig/base",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
-    "skipLibCheck": true,
-    "removeComments": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "lib": ["ESNext"],
-    "outDir": "dist"
+    "outDir": "dist",
   },
+  "include": ["index.ts"],
   "exclude": ["node_modules"]
 }

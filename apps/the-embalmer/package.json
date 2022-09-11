@@ -2,15 +2,17 @@
   "name": "@live-in-bucketheadland/the-embalmer",
   "version": "0.0.0",
   "scripts": {
-    "build": "rm -rf ./dist && tsc --project tsconfig.app.json",
+    "build": "rm -rf ./dist && tsc -p ./tsconfig.build.json",
+    "dev": "nodemon",
     "test": "jest",
     "test:e2e": "jest --testRegex '.*\\.e2e-spec\\.ts$'",
-    "dev": "nodemon"
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
   },
   "dependencies": {
     "fastify": "^4.5.3"
   },
   "devDependencies": {
+    "@live-in-bucketheadland/eslint-config": "workspace:*",
     "@live-in-bucketheadland/tsconfig": "workspace:*",
     "@types/jest": "^28.0.0",
     "@types/node": "^18.7.14",

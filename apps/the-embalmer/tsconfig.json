@@ -1,9 +1,17 @@
 {
   "extends": "@live-in-bucketheadland/tsconfig/base.json",
+  "files": [],
+  "include": [],
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./dist",
-    "resolveJsonModule": true,
     "paths": {}
-  }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
 }

@@ -5,12 +5,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@live-in-bucketheadland/eslint-config": "workspace:*",
     "@live-in-bucketheadland/tsconfig": "workspace:*",
     "eslint": "^8.23.0",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "turbo": "^1.4.3"
   }

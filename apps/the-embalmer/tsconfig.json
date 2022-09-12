@@ -6,5 +6,8 @@
     "outDir": "./dist",
     "types": ["jest", "node"],
     "paths": {}
+  },
+  "ts-node": {
+    "swc": true
   }
 }

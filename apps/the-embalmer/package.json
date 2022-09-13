@@ -2,7 +2,7 @@
   "name": "@live-in-bucketheadland/the-embalmer",
   "version": "0.0.0",
   "scripts": {
-    "build": "rm -rf ./dist && tsc -p ./tsconfig.build.json",
+    "build": "tsc -p ./tsconfig.build.json",
     "dev": "nodemon",
     "test": "jest",
     "test:e2e": "jest --testRegex '.*\\.e2e-spec\\.ts$'",

@@ -1,12 +1,12 @@
 {
   "extends": "@live-in-bucketheadland/tsconfig/base.json",
   "compilerOptions": {
-    "rootDir": ".",
     "baseUrl": ".",
     "outDir": "./dist",
     "types": ["jest", "node"],
     "paths": {}
   },
+  "include": ["**/*.ts"],
   "ts-node": {
     "swc": true
   }

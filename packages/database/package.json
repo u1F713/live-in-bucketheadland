@@ -4,7 +4,10 @@
   "main": "dist/main.ts",
   "types": "dist/main.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:push": "prisma db push"
   },
   "dependencies": {
     "@prisma/client": "^4.3.1",
